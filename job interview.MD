@@ -1,6 +1,6 @@
 ## 1.1 Latar Belakang
 
-Membuat Aplikasi mobile
+Membuat Aplikasi mobile legends
 
 ## 1.2. Deksripsi Teknologi Informasi
 
