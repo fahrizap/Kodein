@@ -16,7 +16,7 @@ bla | bla | bla | bla
 ---|---|---|---
 bla | bla | bla | ⭐⭐⭐⭐⭐
 
-## 3. Struktur Dataz
+## 3. Struktur Data
 ```mermaid
 erDiagram
   PENGGUNA {
