@@ -53,17 +53,18 @@ erDiagram
   PENGGUNA_LAIN ||--o{ PENGGUNA : pesan_pribadi
   PENGGUNA_LAIN ||--o{ GRUP : bergabung
   PENGGUNA_LAIN ||--o{ MATERI_VIDEO : menonton
-  
   GRUP {
-  string nama_grup
-  string ikon_grup
+    int id_grup
+    string nama_grup
+    string ikon_grup
   }
   MATERI_VIDEO {
-  string judul_video
-  string deskripsi_video
-  int jumlah_penonton
-  int jumlah_like
-  string isi_video
+    int id_video
+    string judul_video
+    string deskripsi_video
+    int jumlah_penonton
+    int jumlah_like
+    string isi_video
   }
 ```
 
