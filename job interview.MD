@@ -36,9 +36,6 @@ erDiagram
     int username_pengguna_lain
     string isi_pesan
     string pesan_balasan
-    datetime waktu_publikasi_pesan
-    int poin
-    int jumlah_like
   }
   
   PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
