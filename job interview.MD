@@ -31,6 +31,7 @@ erDiagram
   }
   PENGGUNA ||--o{ PESAN_DISKUSI : membuat
   PENGGUNA ||--o{ PENGGUNA_LAIN : mengikuti
+  PENGGUNA ||--o{ PENGGUNA_LAIN : mengirim_pesan_pribadi
   PESAN_DISKUSI {
     int id_pesan
     int id_pesan_yang_dibalas
@@ -47,6 +48,7 @@ erDiagram
   }
   PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
   PENGGUNA_LAIN ||--o{ PENGGUNA : mengikuti
+  PENGGUNA_LAIN ||--o{ PENGGUNA : mengirim_pesan_pribadi
   
 ```
 
