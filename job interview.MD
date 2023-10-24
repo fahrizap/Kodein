@@ -49,28 +49,7 @@ erDiagram
     int username_pengguna_lain
   }
 ```
-```mermaid
-erDiagram
-  PENGGUNA {
-    int id_pengguna
-    string username
-    string email
-    string password
-    string nama_lengkap
-    int poin
-    int koin
-  }
-  PENGGUNA ||--o{ MATERI_VIDEO : membuat
-  MATERI_VIDEO {
-    string judul_video
-    string deskripsi_video
-    int waktu_publikasi
-    int id_pengguna_pengunggah_video
-    mp4 isi materi
-    int jumlah_like
-    int jumlah_penonton
-  }
-```
+
 ## 4. Arsitektur Sistem
 
 Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/syntax/flowchart.html](https://mermaid.js.org/syntax/flowchart.html)
