@@ -28,7 +28,6 @@ erDiagram
     string email
     string password
     string nama_lengkap
-    int koin
     int poin
   }
   PENGGUNA ||--o{ PESAN_DISKUSI : membuat
