@@ -42,6 +42,7 @@ erDiagram
   }
   PENGGUNA ||--o{ PESAN_DISKUSI : membuat
   PENGGUNA ||--o{ GRUP_DISKUSI : membuat
+  PENGGUNA ||--o{ MATERI_VIDEO : membuat
   PESAN_DISKUSI {
     int id_pesan
     int id_pesan_yang_dibalas
