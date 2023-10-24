@@ -19,6 +19,7 @@ bla | bla | bla | ⭐⭐⭐⭐⭐
 ## 3. Struktur Data
 ```mermaid
 erDiagram
+
   PENGGUNA {
     int id_pengguna
     string username
@@ -36,13 +37,15 @@ erDiagram
     int username_pengguna_lain
     string isi_pesan
     string pesan_balasan
+    int poin
+    string gambar_balasan
   }
-  
-  PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
   PENGGUNA_LAIN {
     int id_pengguna_lain
     int username_pengguna_lain
   }
+  PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
+  
 ```
 
 ## 4. Arsitektur Sistem
