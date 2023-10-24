@@ -37,8 +37,6 @@ erDiagram
     string isi_pesan
     string pesan_balasan
     datetime waktu_publikasi_pesan
-    datetime waktu_balas_pesan
-    jpg isi_pesan_gambar
     int poin
     int jumlah_like
   }
