@@ -17,9 +17,6 @@ bla | bla | bla | bla
 bla | bla | bla | ⭐⭐⭐⭐⭐
 
 ## 3. Struktur Data
-
-Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) 
-
 ```mermaid
 erDiagram
   PENGGUNA {
@@ -63,15 +60,11 @@ erDiagram
     int id_pengguna_yang_mengikuti
   }
   PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
-  PENGGUNA_LAIN ||--o{ GRUP_DISKUSI : bergabung
   PENGGUNA_LAIN {
     int id_pengguna_lain
     int username_pengguna_lain
   }
-  GRUP_DISKUSI{
-    string nama_grup
-    jpg ikon_grup
-  }
+
 
 ```
 
