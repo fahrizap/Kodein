@@ -62,15 +62,7 @@ erDiagram
     string nama_grup
     jpg ikon_grup
   }
-  MATERI_VIDEO
-    string judul_video
-    string deskripsi_video
-    int waktu_publikasi
-    int id_pengguna_pengunggah_video
-    mp4 isi materi
-    int jumlah_like
-    int jumlah_penonton
-  }
+
 ```
 
 ## 4. Arsitektur Sistem
