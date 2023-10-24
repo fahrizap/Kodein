@@ -31,6 +31,15 @@ erDiagram
     int poin
     int koin
   }
+  MATERI_VIDEO
+    string judul_video
+    string deskripsi_video
+    int waktu_publikasi
+    int id_pengguna_pengunggah_video
+    mp4 isi materi
+    int jumlah_like
+    int jumlah_penonton
+  }
   PENGGUNA ||--o{ PESAN_DISKUSI : membuat
   PENGGUNA ||--o{ GRUP_DISKUSI : membuat
   PESAN_DISKUSI {
