@@ -31,7 +31,7 @@ erDiagram
   }
   PENGGUNA ||--o{ PESAN_DISKUSI : membuat
   PENGGUNA ||--o{ BERTEMAN : mengikuti
-  PENGGUNA ||--o{ PENGGUNA_LAIN : mengirim_pesan_pribadi
+  PENGGUNA ||--o{ PENGGUNA_LAIN : pesan_pribadi
   PESAN_DISKUSI {
     int id_pesan
     int id_pesan_yang_dibalas
@@ -48,7 +48,7 @@ erDiagram
   }
   PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
   PENGGUNA_LAIN ||--o{ BERTEMAN : mengikuti
-  PENGGUNA_LAIN ||--o{ PENGGUNA : mengirim_pesan_pribadi
+  PENGGUNA_LAIN ||--o{ PENGGUNA : pesan_pribadi
 ```
 
 ## 4. Arsitektur Sistem
