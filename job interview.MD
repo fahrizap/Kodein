@@ -30,6 +30,7 @@ erDiagram
     int koin
   }
   PENGGUNA ||--o{ PESAN_DISKUSI : membuat
+  PENGGUNA ||--o{ PENGGUNA_LAIN : mengikuti
   PESAN_DISKUSI {
     int id_pesan
     int id_pesan_yang_dibalas
@@ -39,14 +40,13 @@ erDiagram
     string pesan_balasan
     int poin
     string gambar_balasan
-    int taikucing
-    int taisapi
   }
   PENGGUNA_LAIN {
     int id_pengguna_lain
     int username_pengguna_lain
   }
   PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
+  PENGGUNA_LAIN ||--o{ PENGGUNA : mengikuti
   
 ```
 
