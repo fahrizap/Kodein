@@ -32,10 +32,9 @@ erDiagram
     int poin
   }
   PENGGUNA ||--o{ PESAN_DISKUSI : membuat
-  PESAN_DISKUSI ||--o{ PESAN_DISKUSI : membalas 
   PESAN_DISKUSI {
-    int id_cuitan
-    int id_cuitan_yang_dibalas
+    int id_pesan
+    int id_pesan_yang_dibalas
     int id_pengguna 
     string isi_cuitan 
     datetime waktu_publikasi 
@@ -45,6 +44,11 @@ erDiagram
   PENGIKUT {
     int id_pengguna
     int id_pengguna_yang_mengikuti
+  }
+  PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
+  PENGGUNA_LAIN {
+    int id_pengguna_lain
+    int username_pengguna_lain
   }
 ```
 
