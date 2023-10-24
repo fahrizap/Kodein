@@ -39,6 +39,8 @@ erDiagram
     string pesan_balasan
     int poin
     string gambar_balasan
+    int taikucing
+    int taisapi
   }
   PENGGUNA_LAIN {
     int id_pengguna_lain
