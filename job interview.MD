@@ -16,7 +16,7 @@ bla | bla | bla | bla
 ---|---|---|---
 bla | bla | bla | ⭐⭐⭐⭐⭐
 
-## 3. Struktur Data
+## 3. Struktur Dataz
 ```mermaid
 erDiagram
   PENGGUNA {
@@ -42,6 +42,25 @@ erDiagram
     int poin
     int jumlah_like
   }
+
+
+  }
+  PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
+  PENGGUNA_LAIN {
+    int id_pengguna_lain
+    int username_pengguna_lain
+  }
+
+erDiagram
+  PENGGUNA {
+    int id_pengguna
+    string username
+    string email
+    string password
+    string nama_lengkap
+    int poin
+    int koin
+  }
   PENGGUNA ||--o{ MATERI_VIDEO : membuat
   MATERI_VIDEO {
     string judul_video
@@ -52,13 +71,6 @@ erDiagram
     int jumlah_like
     int jumlah_penonton
   }
-  }
-  PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
-  PENGGUNA_LAIN {
-    int id_pengguna_lain
-    int username_pengguna_lain
-  }
-
 
 ```
 
