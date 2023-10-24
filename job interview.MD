@@ -40,7 +40,7 @@ erDiagram
     int poin
     int jumlah_like
   }
-  }
+  
   PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
   PENGGUNA_LAIN {
     int id_pengguna_lain
