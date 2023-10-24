@@ -42,6 +42,7 @@ erDiagram
     datetime waktu_publikasi_pesan
     datetime waktu_balas_pesan
     png/jpg gambar
+    int poin
   }
   PENGGUNA ||--o{ PENGIKUT : memiliki
   PENGGUNA ||--o{ PENGIKUT : mengikuti
