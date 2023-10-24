@@ -29,8 +29,10 @@ erDiagram
     string password
     string nama_lengkap
     int poin
+    int koin
   }
   PENGGUNA ||--o{ PESAN_DISKUSI : membuat
+  PENGGUNA ||--o{ GRUP_DISKUSI : membuat
   PESAN_DISKUSI {
     int id_pesan
     int id_pesan_yang_dibalas
@@ -40,8 +42,9 @@ erDiagram
     string pesan_balasan
     datetime waktu_publikasi_pesan
     datetime waktu_balas_pesan
-    jpg gambar
+    jpg isi_pesan_gambar
     int poin
+    int jumlah_like
   }
   PENGGUNA ||--o{ PENGIKUT : memiliki
   PENGGUNA ||--o{ PENGIKUT : mengikuti
@@ -50,9 +53,23 @@ erDiagram
     int id_pengguna_yang_mengikuti
   }
   PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
+  PENGGUNA_LAIN ||--o{ GRUP_DISKUSI : bergabung
   PENGGUNA_LAIN {
     int id_pengguna_lain
     int username_pengguna_lain
+  }
+  GRUP_DISKUSI{
+    string nama_grup
+    jpg ikon_grup
+  }
+  MATERI_VIDEO
+    string judul_video
+    string deskripsi_video
+    int waktu_publikasi
+    int id_pengguna_pengunggah_video
+    mp4 isi materi
+    int jumlah_like
+    int jumlah_penonton
   }
 ```
 
