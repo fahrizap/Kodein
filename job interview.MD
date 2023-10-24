@@ -28,9 +28,7 @@ erDiagram
     int poin
     int koin
   }
-
   PENGGUNA ||--o{ PESAN_DISKUSI : membuat
-  
   PESAN_DISKUSI {
     int id_pesan
     int id_pesan_yang_dibalas
