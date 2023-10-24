@@ -42,15 +42,14 @@ erDiagram
     int poin
     int jumlah_like
   }
-
-
   }
   PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
   PENGGUNA_LAIN {
     int id_pengguna_lain
     int username_pengguna_lain
   }
-
+```
+```mermaid
 erDiagram
   PENGGUNA {
     int id_pengguna
@@ -71,9 +70,7 @@ erDiagram
     int jumlah_like
     int jumlah_penonton
   }
-
 ```
-
 ## 4. Arsitektur Sistem
 
 Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/syntax/flowchart.html](https://mermaid.js.org/syntax/flowchart.html)
