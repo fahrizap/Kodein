@@ -36,8 +36,12 @@ erDiagram
     int id_pesan
     int id_pesan_yang_dibalas
     int id_pengguna 
-    string isi_cuitan 
-    datetime waktu_publikasi 
+    int username_pengguna_lain
+    string isi_pesan
+    string pesan_balasan
+    datetime waktu_publikasi_pesan
+    datetime waktu_balas_pesan
+    png/jpg gambar
   }
   PENGGUNA ||--o{ PENGIKUT : memiliki
   PENGGUNA ||--o{ PENGIKUT : mengikuti
