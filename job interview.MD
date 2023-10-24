@@ -45,7 +45,7 @@ erDiagram
     string gambar_pesan
     int jumlah_like
     datetime waktu_publikasi
-    datetime waktu_balasan_pesan
+    datetime waktu_pesan_balasan
   }
   PENGGUNA_LAIN {
     int id_pengguna_lain
