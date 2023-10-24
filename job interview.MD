@@ -22,9 +22,28 @@ Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [htt
 
 ```mermaid
 erDiagram
-    CUSTOMER ---> ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+  PENGGUNA {
+    int id_pengguna
+    string username
+    string email
+    string password
+    string nama_lengkap
+  }
+  PENGGUNA ||--o{ CUITAN : membuat
+  CUITAN ||--o{ CUITAN : membalas 
+  CUITAN {
+    int id_cuitan
+    int id_cuitan_yang_dibalas
+    int id_pengguna 
+    string isi_cuitan 
+    datetime waktu_publikasi 
+  }
+  PENGGUNA ||--o{ PENGIKUT : memiliki
+  PENGGUNA ||--o{ PENGIKUT : mengikuti
+  PENGIKUT {
+    int id_pengguna
+    int id_pengguna_yang_mengikuti
+  }
 ```
 
 ## 4. Arsitektur Sistem
