@@ -47,7 +47,7 @@ erDiagram
   }
   PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
   PENGGUNA_LAIN ||--o{ PENGGUNA : mengirim_pesan_pribadi
-  PENGGUNA_LAIN ||--o{ Mengikuti
+  PENGGUNA_LAIN ||--o{ MENGIKUTI : mengikuti
 ```
 
 ## 4. Arsitektur Sistem
