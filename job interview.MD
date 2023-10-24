@@ -42,11 +42,16 @@ erDiagram
     int poin
     int jumlah_like
   }
-  PENGGUNA ||--o{ PENGIKUT : memiliki
-  PENGGUNA ||--o{ PENGIKUT : mengikuti
-  PENGIKUT {
-    int id_pengguna
-    int id_pengguna_yang_mengikuti
+  PENGGUNA ||--o{ MATERI_VIDEO : membuat
+  MATERI_VIDEO {
+    string judul_video
+    string deskripsi_video
+    int waktu_publikasi
+    int id_pengguna_pengunggah_video
+    mp4 isi materi
+    int jumlah_like
+    int jumlah_penonton
+  }
   }
   PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
   PENGGUNA_LAIN {
