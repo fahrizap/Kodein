@@ -21,8 +21,10 @@ bla | bla | bla | ⭐⭐⭐⭐⭐
 Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) 
 
 ```mermaid
-flowchart ID
-    A[Deploy Production] ----> B{It firifj};
+erDiagram
+    CUSTOMER ||--|{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
 
 ## 4. Arsitektur Sistem
