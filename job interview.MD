@@ -31,9 +31,9 @@ erDiagram
     int koin
     int poin
   }
-  PENGGUNA ||--o{ CUITAN : membuat
-  CUITAN ||--o{ CUITAN : membalas 
-  CUITAN {
+  PENGGUNA ||--o{ PESAN_DISKUSI : membuat
+  PESAN_DISKUSI ||--o{ PESAN_DISKUSI : membalas 
+  PESAN_DISKUSI {
     int id_cuitan
     int id_cuitan_yang_dibalas
     int id_pengguna 
