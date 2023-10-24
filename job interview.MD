@@ -42,7 +42,9 @@ erDiagram
     string isi_pesan
     string pesan_balasan
     int poin
-    string gambar_balasan
+    string gambar_pesan
+    datetime waktu_publikasi
+    datetime waktu_balasan_pesan
   }
   PENGGUNA_LAIN {
     int id_pengguna_lain
@@ -57,6 +59,7 @@ erDiagram
     int id_grup
     string nama_grup
     string ikon_grup
+    datetime waktu_grup_dibuat
   }
   MATERI_VIDEO {
     int id_video
@@ -65,6 +68,7 @@ erDiagram
     int jumlah_penonton
     int jumlah_like
     string isi_video
+    datetime waktu_materi_dipublikasi
   }
 ```
 
