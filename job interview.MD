@@ -43,6 +43,7 @@ erDiagram
     string pesan_balasan
     int poin
     string gambar_pesan
+    int jumlah_like
     datetime waktu_publikasi
     datetime waktu_balasan_pesan
   }
