@@ -41,7 +41,7 @@ erDiagram
     string pesan_balasan
     datetime waktu_publikasi_pesan
     datetime waktu_balas_pesan
-    png/jpg gambar
+    jpg gambar
     int poin
   }
   PENGGUNA ||--o{ PENGIKUT : memiliki
