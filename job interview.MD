@@ -14,7 +14,7 @@ bla bla bla
 
 bla | bla
 ---|---
-bla | ⭐⭐⭐⭐⭐
+bla | ⭐⭐⭐⭐
 
 ## 3. Struktur Data
 ```mermaid
