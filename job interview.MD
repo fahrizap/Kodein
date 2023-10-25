@@ -1,6 +1,6 @@
 ## 1.1 Latar Belakang
 
-Membuat Aplikasi mobile legends
+  Terkadang kita kesulitan menemukan materi koding yang kita inginkan, seperti
 
 ## 1.2. Deksripsi Teknologi Informasi
 
@@ -19,6 +19,8 @@ Menonton video materi | ⭐⭐⭐⭐⭐
 Mengikuti satu sama lain | ⭐⭐⭐⭐
 Membalas pesan | ⭐⭐⭐⭐⭐
 Mengirim pesan pribadi satu sama lain | ⭐⭐⭐⭐
+Mengupload portofolio | ⭐⭐⭐⭐
+Membuat grup | ⭐⭐⭐⭐
 
 ## 3. Struktur Data
 ```mermaid
