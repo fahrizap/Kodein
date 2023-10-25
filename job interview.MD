@@ -12,9 +12,9 @@ bla bla bla
 
 ## 2. User Story
 
-bla | bla | bla | bla
----|---|---|---
-bla | bla | bla | ⭐⭐⭐⭐⭐
+bla | bla
+---|---
+bla | ⭐⭐⭐⭐⭐
 
 ## 3. Struktur Data
 ```mermaid
