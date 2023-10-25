@@ -14,7 +14,7 @@ bla bla bla
 
 Pengguna bisa | Tingkat penting
 Mengirim pesan diskusi | ⭐⭐⭐⭐⭐
-|
+---|---
 Menonton video materi | ⭐⭐⭐⭐⭐
 |
 Mengikuti satu sama lain | ⭐⭐⭐⭐
