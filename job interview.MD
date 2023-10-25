@@ -84,7 +84,7 @@ bla bla bla
 ## 6. Desain User Experience dan User Interface
 
 Bisa load image 
-![Contoh](https://fastly.picsum.photos/id/318/536/354.jpg?hmac=Ixy-wle80nudIR_cmnF1iY2y6rMUH7_9sk-BP1fTpM8)
+![Contoh](https://github.com/fahrizap/Kodein/blob/main/Screenshot%202023-10-25%20091942.png?raw=true)
 
 ## 7. Demonstrasi Video
 
