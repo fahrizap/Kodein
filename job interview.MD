@@ -38,7 +38,7 @@ erDiagram
     int id_pesan
     int id_pesan_yang_dibalas
     int id_pengguna 
-    int username_pengguna_lain
+    string username_pengguna_lain
     string isi_pesan
     string pesan_balasan
     int poin
@@ -75,21 +75,10 @@ erDiagram
 
 ## 4. Arsitektur Sistem
 ```mermaid
-flowchart TB
-    subgraph UI_UX
-    Figma-->Client
-    end
-    ReactNative-->Server
-    subgraph Client
-    Javascript-->React_native
-    end
-    NodeJs-->Database
-    subgraph Server
-    NodeJs
-    end
-    subgraph Database
-    Mysql
-    end
+erDiagram
+UI_UX--o{Client
+Client--o{Server
+Server--o{Database
   
     
 ```
