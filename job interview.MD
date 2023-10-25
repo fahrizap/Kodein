@@ -7,8 +7,6 @@
 
 ## 1.3. Branding
 
-bla bla bla
-
 ## 2. User Story
 
 Pengguna bisa | Tingkat penting
