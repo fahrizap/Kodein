@@ -77,7 +77,8 @@ erDiagram
 ```mermaid
 erDiagram
 
-  Client||--o{JavaScript :oo
+  Client||--o{TypeScript :oo
+  Client||--o{Css : oo
   Client||--o{ReactNative : oo
   Client||--o{Server : oo
   Server||--o{NodeJs : oo
