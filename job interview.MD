@@ -84,11 +84,11 @@ flowchart TB
     React_native-->NodeJs
     end
     subgraph Server
-    NodeJs-->Figma
+    NodeJs-->Mysql
     end
-    one --> two
-    three --> two
-    two --> c2
+    subgraph Database
+    MySql
+    end
   
     
 ```
