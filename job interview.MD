@@ -1,10 +1,9 @@
 ## 1.1 Latar Belakang
 
-  Terkadang kita kesulitan menemukan materi koding yang kita inginkan, seperti
+  Terkadang kita kesulitan menemukan materi koding yang kita inginkan atau ketika kita menenemukan materi namun dengan bahasa yang tidak kita pahami.
 
 ## 1.2. Deksripsi Teknologi Informasi
-
-bla bla bla
+  KodIndo adalah aplikasi mobile berbasis client-server yang mengusung tema edukasi mengenai dunia IT, yang dimana IT sedang berkembang dengan sangat pesat. Berarti, kedepannya akan banyak lagi orang yang menekuni Teknologi Informasi. KodIndo akan membantu kita untuk menjelajahi dunia IT, mulai dari bagaimana kita akan memulai, darimana kita akan memulai, dan apa saja yang akan kita pelajari.
 
 ## 1.3. Branding
 
