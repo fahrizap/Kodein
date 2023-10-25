@@ -86,9 +86,10 @@ flowchart TB
     end
     subgraph Server
     NodeJs-->Mysql
+    NodeJs-->Client
     end
     subgraph Database
-    MySql
+    MySql-->NodeJs
     end
   
     
