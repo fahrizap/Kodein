@@ -89,9 +89,7 @@ flowchart TB
     one --> two
     three --> two
     two --> c2
-    subgraph Database
-    Database -->c2
-    end
+  
     
 ```
 ## 5. Teknologi, Library, dan Framework
