@@ -83,7 +83,6 @@ bla bla bla
 
 ## 6. Desain User Experience dan User Interface
 
-Bisa load image 
 ![Contoh](https://github.com/fahrizap/Kodein/blob/main/Screenshot%202023-10-25%20091942.png?raw=true)
 
 ## 7. Demonstrasi Video
