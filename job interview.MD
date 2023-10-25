@@ -76,15 +76,15 @@ erDiagram
 ## 4. Arsitektur Sistem
 ```mermaid
 flowchart TB
-    c1-->a2
     subgraph UI/UX
-    a1-->a2
+    Figma-->Javascript
     end
     subgraph Client
-    b1-->b2
+    Javascript-->React_native
+    React_native-->NodeJs
     end
     subgraph Server
-    c1-->c2
+    NodeJs-->Figma
     end
     one --> two
     three --> two
