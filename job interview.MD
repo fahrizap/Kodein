@@ -13,15 +13,10 @@ bla bla bla
 ## 2. User Story
 
 Pengguna bisa | Tingkat penting
----|---
 Mengirim pesan diskusi | ⭐⭐⭐⭐⭐
----|---
 Menonton video materi | ⭐⭐⭐⭐⭐
----|---
 Mengikuti satu sama lain | ⭐⭐⭐⭐
----|---
 Membalas pesan | ⭐⭐⭐⭐⭐
----|---
 Mengirim pesan pribadi satu sama lain || ⭐⭐⭐⭐
 
 ## 3. Struktur Data
