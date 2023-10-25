@@ -17,7 +17,7 @@ Mengirim pesan diskusi | ⭐⭐⭐⭐⭐
 Menonton video materi | ⭐⭐⭐⭐⭐
 Mengikuti satu sama lain | ⭐⭐⭐⭐
 Membalas pesan | ⭐⭐⭐⭐⭐
-Mengirim pesan pribadi satu sama lain || ⭐⭐⭐⭐
+Mengirim pesan pribadi satu sama lain | ⭐⭐⭐⭐
 
 ## 3. Struktur Data
 ```mermaid
