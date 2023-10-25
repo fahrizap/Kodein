@@ -76,9 +76,15 @@ erDiagram
 ## 4. Arsitektur Sistem
 ```mermaid
 erDiagram
+  UI_UX||--o{Figma : oo
   UI_UX||--o{Client : oo
+  Client||--o{JavaScript :oo
+  Client||--o{ReactNative : oo
   Client||--o{Server : oo
+  Server||--o{NodeJs : oo
   Server||--o{Database : oo
+  Database||--o{MySql : oo
+  MySql||--o{Server :oo
 ```
 ## 5. Teknologi, Library, dan Framework
 
