@@ -74,9 +74,13 @@ erDiagram
 ```
 
 ## 4. Arsitektur Sistem
-
-Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/syntax/flowchart.html](https://mermaid.js.org/syntax/flowchart.html)
-
+```mermaid
+flowchart LR
+    A(This is the text in the box)
+    B(This box 2)
+    A-->B
+    
+```
 ## 5. Teknologi, Library, dan Framework
 
 bla bla bla
