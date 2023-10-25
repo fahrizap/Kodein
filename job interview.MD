@@ -76,9 +76,9 @@ erDiagram
 ## 4. Arsitektur Sistem
 ```mermaid
 erDiagram
-UI_UX--o{Client
-Client--o{Server
-Server--o{Database
+UI_UX||--o{Client
+Client||--o{Server
+Server||--o{Database
   
     
 ```
