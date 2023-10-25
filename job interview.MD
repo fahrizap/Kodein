@@ -76,8 +76,7 @@ erDiagram
 ## 4. Arsitektur Sistem
 ```mermaid
 erDiagram
-  UI_UX||--o{Figma : oo
-  UI_UX||--o{Client : oo
+
   Client||--o{JavaScript :oo
   Client||--o{ReactNative : oo
   Client||--o{Server : oo
