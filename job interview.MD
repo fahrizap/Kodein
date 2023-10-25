@@ -75,10 +75,23 @@ erDiagram
 
 ## 4. Arsitektur Sistem
 ```mermaid
-flowchart LR
-    A(This is the text in the box)
-    B(This box 2)
-    A-->B
+flowchart TB
+    c1-->a2
+    subgraph UI/UX
+    a1-->a2
+    end
+    subgraph Client
+    b1-->b2
+    end
+    subgraph Server
+    c1-->c2
+    end
+    one --> two
+    three --> two
+    two --> c2
+    subgraph Database
+    Database -->c2
+    end
     
 ```
 ## 5. Teknologi, Library, dan Framework
