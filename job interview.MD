@@ -10,7 +10,7 @@
 ## 2. User Story
 
 Sebagai | Ingin bisa | Sehingga | Prioritas
----|---
+---|---|---|---
 PENGGUNA | Menonton video materi dari saluran pengguna lain | video materi bisa ditonton pengguna lain | ⭐⭐⭐⭐⭐
 PENGGUNA | Pengguna bisa menyukai video materi dari saluran pengguna lain | video materi bisa disukai | ⭐⭐⭐
 PENGGUNA | Membagikan video materi dari saluran lain | video materi bisa dibagikan | ⭐⭐⭐
