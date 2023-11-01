@@ -12,22 +12,22 @@
 Sebagai | Ingin bisa | Sehingga | Prioritas
 ---|---
 PENGGUNA | Menonton video materi dari saluran pengguna lain | video materi bisa ditonton pengguna lain | ⭐⭐⭐⭐⭐
-PENGGUNA | Pengguna bisa menyukai video materi dari saluran pengguna lain | video materi bisa disukai |⭐⭐⭐
-PENGGUNA | Membagikan video materi dari saluran lain| video materi bisa dibagikan |⭐⭐⭐
-PENGGUNA | Mengupload video materi untuk salurannya| video materi bisa diupload|⭐⭐⭐⭐⭐
-PENGGUNA | Memberikan harga berupa koin untuk setiap video materi dalam saluran sendiri| video materi bisa dihargai koin|⭐⭐⭐⭐
-PENGGUNA | Membeli video materi yang dihargai koin dari saluran pengguna lain| video materi bisa dibeli oleh koin|⭐⭐⭐⭐⭐
-PENGGUNA | Menambahkan deskripsi pada video materi disaluran sendiri| video materi bisa ditambah deskripsi|⭐⭐⭐⭐
-PENGGUNA | Mengedit deskripsi pada video materi disaluran sendiri | deskripsi video materi bisa diedit|⭐⭐⭐⭐
-PENGGUNA | Menghapus video materi disaluran sendiri|video materi bisa dihapus|⭐⭐⭐⭐
-PENGGUNA | Melaporkan setiap video materi yang tidak pantas atau di luar topik perkodingan| video materi bisa dilaporkan|⭐⭐⭐⭐
-PENGGUNA | Mengunduh video materi dari saluran lain| video materi bisa diunduh|⭐⭐⭐⭐
-PENGGUNA | Mengkategorikan atau membuat playlist untuk video materi di dalam salurannya atau dari saluran lain| video materi bisa di kategorikan |⭐⭐⭐⭐
-PENGGUNA | Mengupload pesan diskusi | pesan diskusi bisa diupload |⭐⭐⭐⭐⭐
-PENGGUNA | Membalas pesan diskusi pengguna lain | pesan diskusi bisa dibalas |⭐⭐⭐⭐⭐
+PENGGUNA | Pengguna bisa menyukai video materi dari saluran pengguna lain | video materi bisa disukai | ⭐⭐⭐
+PENGGUNA | Membagikan video materi dari saluran lain| video materi bisa dibagikan | ⭐⭐⭐
+PENGGUNA | Mengupload video materi untuk salurannya| video materi bisa diupload| ⭐⭐⭐⭐⭐
+PENGGUNA | Memberikan harga berupa koin untuk setiap video materi dalam saluran sendiri| video materi bisa dihargai koin| ⭐⭐⭐⭐
+PENGGUNA | Membeli video materi yang dihargai koin dari saluran pengguna lain| video materi bisa dibeli oleh koin| ⭐⭐⭐⭐⭐
+PENGGUNA | Menambahkan deskripsi pada video materi disaluran sendiri| video materi bisa ditambah deskripsi| ⭐⭐⭐⭐
+PENGGUNA | Mengedit deskripsi pada video materi disaluran sendiri | deskripsi video materi bisa diedit| ⭐⭐⭐⭐
+PENGGUNA | Menghapus video materi disaluran sendiri|video materi bisa dihapus| ⭐⭐⭐⭐
+PENGGUNA | Melaporkan setiap video materi yang tidak pantas atau di luar topik perkodingan| video materi bisa dilaporkan| ⭐⭐⭐⭐
+PENGGUNA | Mengunduh video materi dari saluran lain| video materi bisa diunduh| ⭐⭐⭐⭐
+PENGGUNA | Mengkategorikan atau membuat playlist untuk video materi di dalam salurannya atau dari saluran lain| video materi bisa di kategorikan | ⭐⭐⭐⭐
+PENGGUNA | Mengupload pesan diskusi | pesan diskusi bisa diupload | ⭐⭐⭐⭐⭐
+PENGGUNA | Membalas pesan diskusi pengguna lain | pesan diskusi bisa dibalas | ⭐⭐⭐⭐⭐
 PENGGUNA | Menambahkan bobot pesan diskusi menggunakan koin yang dikonversi menjadi poin | pesan diskusi bisa memiliki bobot poin |⭐⭐⭐⭐⭐
-PENGGUNA | Menyukai pesan diskusi pengguna lain| pesan diskusi bisa disukai|⭐⭐⭐
-PENGGUNA | Membagikan pesan diskusi pengguna lain| pesan diskusi bisa dibagika |⭐⭐⭐
+PENGGUNA | Menyukai pesan diskusi pengguna lain| pesan diskusi bisa disukai| ⭐⭐⭐
+PENGGUNA | Membagikan pesan diskusi pengguna lain| pesan diskusi bisa dibagika | ⭐⭐⭐
 
 
 ## 3. Struktur Data
