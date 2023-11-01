@@ -123,7 +123,7 @@ bla bla bla
 
 ## 6. Desain User Experience dan User Interface
 
-![Contoh](https://github.com/fahrizap/Kodein/blob/main/Screenshot%202023-10-25%20091942.png?raw=true)
+![Contoh](https://www.figma.com/proto/YPBskEyucyZdK8zGOAQGAC/ZapKode?type=design&node-id=17-315&t=8vJBnVqhRYLEyHUe-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=17%3A315)
 
 ## 7. Demonstrasi Video
 
