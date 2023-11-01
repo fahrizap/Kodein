@@ -37,9 +37,28 @@ int id_pengguna
 string username
 string isi_pesan
 string gambar
+int koin
+int poin
 }
+MATERI_VIDEO {
+int id_materi
+string judul_materi
+string deskripsi_materi
+string video_materi
+string gambar_thumbnail
+int like
+int koin 
+string komentar
+}
+PENGGUNA||--o{MATERI_VIDEO : mengupload
+PENGGUNA||--o{MATERI_VIDEO : memberi_like
+PENGGUNA||--o{MATERI_VIDEO : mendownload
+PENGGUNA||--o{MATERI_VIDEO : menonton
+PENGGUNA||--o{MATERI_VIDEO : komentar
 PENGGUNA||--o{PESAN_DISKUSI : mengirim
+PENGGUNA||--o{PESAN_DISKUSI : membalas
 PENGGUNA||--o{PENGGUNA : mengikuti
+PENGGUNA||--o{PENGGUNA : pesan_pribadi
 ```
 
 ## 4. Arsitektur Sistem
