@@ -3,7 +3,7 @@
   Terkadang kita kesulitan menemukan materi koding yang kita inginkan atau ketika kita menenemukan materi namun dengan bahasa yang tidak kita pahami.
 
 ## 1.2. Deksripsi Teknologi Informasi
-  KodIndo adalah aplikasi mobile berbasis client-server yang mengusung tema edukasi mengenai dunia IT, yang dimana IT sedang berkembang dengan sangat pesat. Berarti, kedepannya akan banyak lagi orang yang menekuni Teknologi Informasi. KodIndo akan membantu kita untuk menjelajahi dunia IT, mulai dari bagaimana kita akan memulai, darimana kita akan memulai, dan apa saja yang akan kita pelajari.
+  ZapKode adalah aplikasi mobile berbasis client-server yang mengusung tema edukasi mengenai dunia IT, yang dimana IT sedang berkembang dengan sangat pesat. Berarti, kedepannya akan banyak lagi orang yang menekuni Teknologi Informasi. KodIndo akan membantu kita untuk menjelajahi dunia IT, mulai dari bagaimana kita akan memulai, darimana kita akan memulai, dan apa saja yang akan kita pelajari.
 
 ## 1.3. Branding
 
@@ -22,58 +22,24 @@ Membuat grup | ⭐⭐⭐⭐
 ## 3. Struktur Data
 ```mermaid
 erDiagram
-
-  PENGGUNA {
-    int id_pengguna
-    string username
-    string email
-    string password
-    string nama_lengkap
-    int poin
-    int koin
-  }
-  PENGGUNA ||--o{ PESAN_DISKUSI : membuat
-  PENGGUNA ||--o{ BERTEMAN : mengikuti
-  PENGGUNA ||--o{ PENGGUNA_LAIN : pesan_pribadi
-  PENGGUNA ||--o{ GRUP : membuat
-  PENGGUNA ||--o{ MATERI_VIDEO : membuat
-  PESAN_DISKUSI {
-    int id_pesan
-    int id_pesan_yang_dibalas
-    int id_pengguna 
-    string username_pengguna_lain
-    string isi_pesan
-    string pesan_balasan
-    int poin
-    string gambar_pesan
-    int jumlah_like
-    datetime waktu_publikasi
-    datetime waktu_pesan_balasan
-  }
-  PENGGUNA_LAIN {
-    int id_pengguna_lain
-    int username_pengguna_lain
-  }
-  PENGGUNA_LAIN ||--o{ PESAN_DISKUSI : membalas
-  PENGGUNA_LAIN ||--o{ BERTEMAN : mengikuti
-  PENGGUNA_LAIN ||--o{ PENGGUNA : pesan_pribadi
-  PENGGUNA_LAIN ||--o{ GRUP : bergabung
-  PENGGUNA_LAIN ||--o{ MATERI_VIDEO : menonton
-  GRUP {
-    int id_grup
-    string nama_grup
-    string ikon_grup
-    datetime waktu_grup_dibuat
-  }
-  MATERI_VIDEO {
-    int id_video
-    string judul_video
-    string deskripsi_video
-    int jumlah_penonton
-    int jumlah_like
-    string isi_video
-    datetime waktu_materi_dipublikasi
-  }
+PENGGUNA {
+string username
+int id_pengguna
+string email
+string password
+int no_telepon
+int poin
+int koin
+}
+PESAN_DISKUSI {
+int id_pesan
+int id_pengguna
+string username
+string isi_pesan
+string gambar
+}
+PENGGUNA||--o{PESAN_DISKUSI : mengirim
+PENGGUNA||--o{PENGGUNA : mengikuti
 ```
 
 ## 4. Arsitektur Sistem
