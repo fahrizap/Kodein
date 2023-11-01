@@ -36,12 +36,14 @@ int id_pesan
 int id_pengguna
 string username
 string isi_pesan
-string gambar
+string gambar_pesan
 int koin
 int poin
 }
 MATERI_VIDEO {
 int id_materi
+string username
+int id_pengguna
 string judul_materi
 string deskripsi_materi
 string video_materi
@@ -50,15 +52,36 @@ int like
 int koin 
 string komentar
 }
+GRUP {
+int id_grup
+int nama_grup
+string gambar_ikon_grup
+string deskripsi
+int id_pengguna
+string username
+string pesan_grup
+string gambar_pesan
+
+
+}
 PENGGUNA||--o{MATERI_VIDEO : mengupload
 PENGGUNA}o--||MATERI_VIDEO : memberi_like
 PENGGUNA}o--o{MATERI_VIDEO : mendownload
 PENGGUNA}o--o{MATERI_VIDEO : menonton
 PENGGUNA}o--o{MATERI_VIDEO : komentar
+PENGGUNA||--o{MATERI_VIDEO : menghapus
 PENGGUNA||--o{PESAN_DISKUSI : mengirim
 PENGGUNA}o--o{PESAN_DISKUSI : membalas
+PENGGUNA||--||PESAN_DISKUSI : menghapus
 PENGGUNA||--o{PENGGUNA : mengikuti
+PENGGUNA||--||PENGGUNA : batal_mengikuti
 PENGGUNA||--o{PENGGUNA : pesan_pribadi
+PENGGUNA||--o{PENGGUNA : membalas pesan_pribadi
+PENGGUNA||--o{GRUP : membuat
+PENGGUNA||--o{GRUP : menghapus
+PENGGUNA}o--o{GRUP : bergabung
+PENGGUNA}o--o{GRUP : pesan
+PENGGUNA}o--o{GRUP : membalas_pesan
 ```
 
 ## 4. Arsitektur Sistem
