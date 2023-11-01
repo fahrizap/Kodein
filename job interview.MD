@@ -51,12 +51,12 @@ int koin
 string komentar
 }
 PENGGUNA||--o{MATERI_VIDEO : mengupload
-PENGGUNA||--o{MATERI_VIDEO : memberi_like
-PENGGUNA||--o{MATERI_VIDEO : mendownload
-PENGGUNA||--o{MATERI_VIDEO : menonton
-PENGGUNA||--o{MATERI_VIDEO : komentar
+PENGGUNA}o--||MATERI_VIDEO : memberi_like
+PENGGUNA}o--o{MATERI_VIDEO : mendownload
+PENGGUNA}o--o{MATERI_VIDEO : menonton
+PENGGUNA}o--o{MATERI_VIDEO : komentar
 PENGGUNA||--o{PESAN_DISKUSI : mengirim
-PENGGUNA||--o{PESAN_DISKUSI : membalas
+PENGGUNA}o--o{PESAN_DISKUSI : membalas
 PENGGUNA||--o{PENGGUNA : mengikuti
 PENGGUNA||--o{PENGGUNA : pesan_pribadi
 ```
