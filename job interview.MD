@@ -6,6 +6,16 @@
   ZapKode adalah aplikasi mobile berbasis client-server yang mengusung tema edukasi mengenai dunia IT, yang dimana IT sedang berkembang dengan sangat pesat. Berarti, kedepannya akan banyak lagi orang yang menekuni Teknologi Informasi. zapKode akan membantu kita untuk menjelajahi dunia IT, mulai dari bagaimana kita akan memulai, darimana kita akan memulai, dan apa saja yang akan kita pelajari.
 
 ## 1.3. Branding
+   Branding :
+    - Merk        : ZAP CODE
+    - Tagline     : 
+    - Campaign    : 
+  Target User : Anak muda indonesia yang memiliki semangat untuk selalu belajar
+  User experience : 
+    - Berbahasa indonesia yang tidak rumit untuk dimengerti
+    - Bisa memperbagus portfolio dengan poin
+    - Bisa berbagi dan menambah ilmu
+
 
 ## 2. User Story
 
@@ -119,11 +129,9 @@ erDiagram
 ```
 ## 5. Teknologi, Library, dan Framework
 
-bla bla bla
-
 ## 6. Desain User Experience dan User Interface
 
-![Contoh](https://www.figma.com/proto/YPBskEyucyZdK8zGOAQGAC/ZapKode?type=design&node-id=17-315&t=8vJBnVqhRYLEyHUe-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=17%3A315)
+![Contoh]()
 
 ## 7. Demonstrasi Video
 
