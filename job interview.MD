@@ -12,7 +12,8 @@
 Sebagai | Ingin bisa | Sehingga | Prioritas
 ---|---|---|---
 PENGGUNA | Menonton video materi dari saluran pengguna lain | video materi bisa ditonton pengguna lain | ⭐⭐⭐⭐⭐
-PENGGUNA | Pengguna bisa menyukai video materi dari saluran pengguna lain | video materi bisa disukai | ⭐⭐⭐
+PENGGUNA | Mengupload video materi shorts ODADING pada saluran diri sendiri | video ODADING bisa di upload | ⭐⭐⭐⭐⭐
+PENGGUNA | Menyukai video materi dari saluran pengguna lain | video materi bisa disukai | ⭐⭐⭐
 PENGGUNA | Membagikan video materi dari saluran lain | video materi bisa dibagikan | ⭐⭐⭐
 PENGGUNA | Mengupload video materi untuk salurannya | video materi bisa diupload | ⭐⭐⭐⭐⭐
 PENGGUNA | Memberikan harga berupa koin untuk setiap video materi dalam saluran sendiri | video materi bisa dihargai koin | ⭐⭐⭐⭐
@@ -27,8 +28,16 @@ PENGGUNA | Mengupload pesan diskusi | pesan diskusi bisa diupload | ⭐⭐⭐⭐
 PENGGUNA | Membalas pesan diskusi pengguna lain | pesan diskusi bisa dibalas | ⭐⭐⭐⭐⭐
 PENGGUNA | Menambahkan bobot pesan diskusi menggunakan koin yang dikonversi menjadi poin | pesan diskusi bisa memiliki bobot poin |⭐⭐⭐⭐⭐
 PENGGUNA | Menyukai pesan diskusi pengguna lain | pesan diskusi bisa disukai | ⭐⭐⭐
-PENGGUNA | Membagikan pesan diskusi pengguna lain | pesan diskusi bisa dibagika | ⭐⭐⭐
-
+PENGGUNA | Membagikan pesan diskusi pengguna lain | pesan diskusi bisa dibagikan | ⭐⭐⭐
+PENGGUNA | Menambahkan gambar pada pesan diskusi | gambar bisa ditambahkan pada pesan diskusi |⭐⭐⭐⭐
+PENGGUNA | Menghapus pesan diskusi | pesan diskusi bisa dihapus | ⭐⭐⭐⭐
+PENGGUNA | Membuat grup komunitas | grup komunitas bisa dibuat| ⭐⭐⭐⭐⭐
+PENGGUNA | Bergabung dalam grup komunitas | Pengguna bisa bergabung dalam grup komunitas |⭐⭐⭐⭐⭐
+PENGGUNA | Mengupload gambar untuk foto profilnya | foto profil bisa ditambahkan |⭐⭐⭐⭐
+PENGGUNA | Membuat pesan pribadi pada pengguna lain | pesan pribadi bisa dibuat | ⭐⭐⭐⭐⭐
+PENGGUNA | Membalas pesan pribadi dari pengguna lain | pesan pribadi bisa dibalas | ⭐⭐⭐⭐
+PENGGUNA | Melakukan pencarian video materi | video materi bisa di cari di pencarian | ⭐⭐⭐⭐⭐
+PENGGUNA | Melakukan pencarian topik pesan diskusi | topik pesan diskusi bisa dicari |⭐⭐⭐⭐⭐
 
 ## 3. Struktur Data
 ```mermaid
