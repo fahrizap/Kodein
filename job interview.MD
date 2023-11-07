@@ -119,9 +119,12 @@ PENGGUNA}o--o{GRUP : membalas_pesan
 flowchart LR
   subgraph Client
   ReactNative
+  JavaScript
+  TypeScript
   end
   subgraph Server
   NodeJs
+  JavaScript
     subgraph Database
     MySQL
     end
