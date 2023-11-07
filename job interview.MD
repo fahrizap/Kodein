@@ -126,7 +126,7 @@ flowchart LR
     MySQL
     end
   end
-  Client --> Server
+  Client --> Https --> Server
 
   
 ```
