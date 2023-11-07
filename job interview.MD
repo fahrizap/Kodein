@@ -121,7 +121,7 @@ flowchart LR
   ReactNative
   end
   subgraph Server
-  NodeJS
+  NodeJs
     subgraph Database
     MySQL
     end
