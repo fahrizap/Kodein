@@ -127,6 +127,7 @@ flowchart LR
     end
   end
   Client --> Https --> Server
+  NodeJs --> Database
 
   
 ```
