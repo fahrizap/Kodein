@@ -117,8 +117,10 @@ PENGGUNA}o--o{GRUP : membalas_pesan
 ## 4. Arsitektur Sistem
 ```mermaid
 flowchart LR
-  A[ReactNative] -->|Http| B[NodeJs]
+  A{Client} -->|Http| B{Server}
   A -->|Https| B
+  A --> AA[ReactNative]
+  B --> BB[NodeJS]
   
 ```
 ## 5. Teknologi, Library, dan Framework
