@@ -143,7 +143,7 @@ flowchart LR
   8. VS Code
 ## 6. Desain User Experience dan User Interface
 
-![Contoh]()
+![Contoh](https://github.com/fahrizap/zapKode/blob/4bf7e883df932a483b6ce801e9da873778099715/Ui1.png)
 ![Contoh]()
 ![Contoh]()
 ![Contoh]()
