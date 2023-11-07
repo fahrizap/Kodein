@@ -144,6 +144,11 @@ flowchart LR
 ## 6. Desain User Experience dan User Interface
 
 ![Contoh]()
+![Contoh]()
+![Contoh]()
+![Contoh]()
+![Contoh]()
+![Contoh]()
 
 ## 7. Demonstrasi Video
 
