@@ -124,7 +124,7 @@ flowchart LR
   end
   subgraph Server
   NodeJs
-  JavaScript
+  Javascript
     subgraph Database
     MySQL
     end
