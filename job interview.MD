@@ -7,9 +7,9 @@
 
 ## 1.3. Branding
    1. Branding :
-    - Merk        : ZAP CODE
-    - Tagline     : 
-    - Campaign    : 
+    1. Merk        : ZAP CODE
+    2. Tagline     : 
+    3. Campaign    : 
   2. Target User : Anak muda indonesia yang memiliki semangat untuk selalu belajar
   3. User experience : 
     - Berbahasa indonesia yang tidak rumit untuk dimengerti
