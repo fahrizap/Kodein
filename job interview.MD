@@ -133,7 +133,14 @@ flowchart LR
   
 ```
 ## 5. Teknologi, Library, dan Framework
-
+  1. ReactNative
+  2. JavaScript
+  3. TypeScript
+  4. NodeJs (Server)
+  5. MySql (DBMS)
+  6. Windows (OS)
+  7. Android Studio
+  8. VS Code
 ## 6. Desain User Experience dan User Interface
 
 ![Contoh]()
