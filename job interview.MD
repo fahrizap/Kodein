@@ -116,16 +116,10 @@ PENGGUNA}o--o{GRUP : membalas_pesan
 
 ## 4. Arsitektur Sistem
 ```mermaid
-erDiagram
-
-  Client||--o{TypeScript :oo
-  Client||--o{Css : oo
-  Client||--o{ReactNative : oo
-  Client||--o{Server : oo
-  Server||--o{NodeJs : oo
-  Server||--o{Database : oo
-  Database||--o{MySql : oo
-  MySql||--o{Server :oo
+flowchart LR
+  A[ReactNative] -->|Http| B[NodeJs]
+  A -->|Https| B
+  
 ```
 ## 5. Teknologi, Library, dan Framework
 
