@@ -144,7 +144,7 @@ flowchart LR
 ## 6. Desain User Experience dan User Interface
 
 ![Contoh](https://github.com/fahrizap/zapKode/blob/4bf7e883df932a483b6ce801e9da873778099715/Ui1.png)
-![Contoh]()
+![Contoh](https://github.com/fahrizap/zapKode/blob/7df3860db2e87b18defa424ec69f51b040ad246c/Ui2.png)
 ![Contoh]()
 ![Contoh]()
 ![Contoh]()
