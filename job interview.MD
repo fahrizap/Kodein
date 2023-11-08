@@ -69,6 +69,7 @@ string isi_pesan
 string gambar_pesan
 int koin
 int poin
+datetime waktu_publikasi
 }
 MATERI_VIDEO {
 int id_materi
@@ -81,6 +82,7 @@ string gambar_thumbnail
 int like
 int koin 
 string komentar
+datetime waktu_publikasi
 }
 GRUP {
 int id_grup
@@ -91,7 +93,7 @@ int id_pengguna
 string username
 string pesan_grup
 string gambar_pesan
-
+datetime waktu_publikasi
 
 }
 PENGGUNA||--o{MATERI_VIDEO : mengupload
