@@ -82,7 +82,7 @@ string gambar_thumbnail
 int like
 int koin 
 string komentar
-datetime waktu_publikasi
+datetime waktu_publis
 }
 GRUP {
 int id_grup
