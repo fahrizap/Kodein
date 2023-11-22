@@ -141,7 +141,7 @@ flowchart LR
   4. [NodeJs] (Server) sebagai teknologi bahasa javascript yang saya gunakan untuk membangun sisi server aplikasi
   5. [MySql] (DBMS) sebagai teknologi bahasa SQL untuk membangun dan mengelola database aplikasi saya
   6. [Windows] (OS) sebagai sistem operasi yang saya gunakan untuk menjalankan program
-  7. [Android Studio] untuk menjalankan emulator dan set up sdk dan resource yang diperlukan
+  7. [Android Studio] untuk menjalankan emulator serta set up sdk dan resource yang diperlukan
   8. [VS Code] sebagai kode editor yang digunakan
 ## 6. Desain User Experience dan User Interface
 
