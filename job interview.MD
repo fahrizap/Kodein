@@ -154,7 +154,9 @@ flowchart LR
 
 ## 7. Demonstrasi Video
 
-Link youtube nya
+```
+https://youtu.be/CiyDhYBBGQc?si=FP5VVU9sFX6TdYna
+```
 
 ## 8. Bagaimana mesin komputasi dan sistem operasi berperan dalam produk teknologi informasimu ?
 
