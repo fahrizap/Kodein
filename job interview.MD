@@ -6,12 +6,12 @@
   ZapKode adalah aplikasi mobile berbasis client-server yang mengusung tema edukasi mengenai dunia IT, yang dimana IT sedang berkembang dengan sangat pesat. Berarti, kedepannya akan banyak lagi orang yang menekuni Teknologi Informasi. zapKode akan membantu kita untuk menjelajahi dunia IT, mulai dari bagaimana kita akan memulai, darimana kita akan memulai, dan apa saja yang akan kita pelajari. Selain itu, kita juga bisa menambah relasi dan pengalaman di bidang pemrograman.
 
 ## 1.3. Branding
-   1. Branding :
+   - Branding :
     - Merk        : ZAP CODE
     - Tagline     : Berjelajah bersama di dunia Kode
     - Campaign    : ZapCode digunakan untuk membantu menyelesaikan permasalahan eror, maupun untuk memulai serta meningkatkan skill dan pengalaman di dunia coding.
-  2. Target User : Anak muda indonesia yang memiliki semangat untuk selalu belajar
-  3. User experience : 
+  - Target User : Anak muda indonesia yang memiliki semangat untuk selalu belajar
+  - User experience : 
     - Berbahasa indonesia yang tidak rumit untuk dimengerti
     - Bisa memperbagus portfolio dengan poin
     - Bisa berbagi dan menambah ilmu
@@ -135,14 +135,14 @@ flowchart LR
   
 ```
 ## 5. Teknologi, Library, dan Framework
-  1. ReactNative
-  2. JavaScript
-  3. TypeScript
-  4. NodeJs (Server)
-  5. MySql (DBMS)
-  6. Windows (OS)
-  7. Android Studio
-  8. VS Code
+  1. [ReactNative] sebagai framework javascript yang saya gunakan dalam pembuatan aplikasi mobile
+  2. [JavaScript] sebagai bahasa pemrograman yang digunakan
+  3. [TypeScript] sebagai bahasa pemrograman yang digunakan
+  4. [NodeJs] (Server) sebagai teknologi bahasa javascript yang saya gunakan untuk membangun sisi server aplikasi
+  5. [MySql] (DBMS) sebagai teknologi bahasa SQL untuk membangun dan mengelola database aplikasi saya
+  6. [Windows] (OS) sebagai sistem operasi yang saya gunakan untuk menjalankan program
+  7. [Android Studio] untuk menjalankan emulator dan set up sdk dan resource yang diperlukan
+  8. [VS Code] sebagai kode editor yang digunakan
 ## 6. Desain User Experience dan User Interface
 
 ![Contoh](https://github.com/fahrizap/zapKode/blob/4bf7e883df932a483b6ce801e9da873778099715/Ui1.png)
