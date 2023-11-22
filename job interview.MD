@@ -2,7 +2,7 @@
 
 ## 1.1 Latar Belakang
 
-  Terkadang kita kesulitan menemukan materi koding yang kita inginkan atau ketika kita menenemukan materi namun dengan bahasa yang tidak kita pahami, dan ketika kasus dimana kita sedang koding dan bertemu dengan error yang membuat kita ter stuck dalam waktu yang lama.
+  Terkadang kita kesulitan menemukan materi koding yang kita inginkan atau ketika kita menenemukan materi namun dengan bahasa yang tidak kita pahami, dan ketika kasus dimana kita sedang koding dan bertemu dengan error yang membuat kita ter stack dalam waktu yang lama.
 
 ## 1.2. Deksripsi Teknologi Informasi
   ZapKode adalah aplikasi mobile berbasis client-server yang mengusung tema edukasi mengenai dunia IT, yang dimana IT sedang berkembang dengan sangat pesat. Berarti, kedepannya akan banyak lagi orang yang menekuni Teknologi Informasi. zapKode akan membantu kita untuk menjelajahi dunia IT, mulai dari bagaimana kita akan memulai, darimana kita akan memulai, dan apa saja yang akan kita pelajari. Selain itu, kita juga bisa menambah relasi dan pengalaman di bidang pemrograman.
