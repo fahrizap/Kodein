@@ -1,3 +1,5 @@
+!(contoh)[Screenshot 2023-11-22 085654.png]
+
 ## 1.1 Latar Belakang
 
   Terkadang kita kesulitan menemukan materi koding yang kita inginkan atau ketika kita menenemukan materi namun dengan bahasa yang tidak kita pahami, dan ketika kasus dimana kita sedang koding dan bertemu dengan error yang membuat kita ter stuck dalam waktu yang lama.
