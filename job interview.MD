@@ -1,4 +1,4 @@
-!(contoh)[Screenshot 2023-11-22 085654.png]
+![contoh](Screenshot 2023-11-22 085654.png)
 
 ## 1.1 Latar Belakang
 
