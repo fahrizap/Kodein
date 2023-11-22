@@ -7,14 +7,14 @@
 
 ## 1.3. Branding
    1. Branding :
-    a. Merk        : ZAP CODE
-    b. Tagline     : Berjelajah bersama di dunia Kode
-    c. Campaign    : ZapCode digunakan untuk membantu menyelesaikan permasalahan eror, maupun untuk memulai serta meningkatkan skill dan pengalaman di dunia coding.
+    - Merk        : ZAP CODE
+    - Tagline     : Berjelajah bersama di dunia Kode
+    - Campaign    : ZapCode digunakan untuk membantu menyelesaikan permasalahan eror, maupun untuk memulai serta meningkatkan skill dan pengalaman di dunia coding.
   2. Target User : Anak muda indonesia yang memiliki semangat untuk selalu belajar
   3. User experience : 
-    a. Berbahasa indonesia yang tidak rumit untuk dimengerti
-    b. Bisa memperbagus portfolio dengan poin
-    c. Bisa berbagi dan menambah ilmu
+    - Berbahasa indonesia yang tidak rumit untuk dimengerti
+    - Bisa memperbagus portfolio dengan poin
+    - Bisa berbagi dan menambah ilmu
 
 
 ## 2. User Story
