@@ -1,4 +1,4 @@
-![contoh](Screenshot 2023-11-22 085654.png)
+![contoh](https://github.com/fahrizap/zapKode/blob/main/Screenshot%202023-11-22%20085654.png?raw=true)
 
 ## 1.1 Latar Belakang
 
