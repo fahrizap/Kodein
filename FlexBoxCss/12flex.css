@@ -1,0 +1,23 @@
+.item {
+  /* flex grow */
+  flex: 0;
+  /* flex-grow flex-shrink */
+  flex: 0 1;
+  /* flex-grow flex-basis */
+  flex: 0 auto;
+}
+
+.item2 {
+  /* flex direction */
+  flex-flow: column;
+  /* flex wrap */
+  flex-flow: wrap;
+  /* flex-direction flex-wrap */
+  flex-flow: column wrap;
+}
+.item3 {
+  /* padding horizontal */
+  padding-inline: 4;
+  /* padding vertikal */
+  padding-block: 4;
+}
